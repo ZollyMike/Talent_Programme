@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+.main {
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+
+.bdy-frame {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.bdy-frame header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.bdy-frame header .logo a {
+  font-weight: 800;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.bdy-frame header .navi {
+  width: 40%;
+}
+.bdy-frame header .navi ul {
+  display: flex;
+  justify-content: space-between;
+}
+.bdy-frame header .navi ul li {
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bdy-frame header .navi ul li a {
+  width: 100%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+.bdy-frame .some-head {
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.bdy-frame .some-head h2 {
+  font-weight: 800;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.bdy-frame .some-head p {
+  font-size: 15px;
+  color: #cfcfcf;
+}
+.bdy-frame .photo .photo__col {
+  margin-bottom: 35px;
+}
+.bdy-frame .photo .photo__col img {
+  width: 100%;
+}
+.bdy-frame .photo .some-head--title {
+  width: 70%;
+  margin-bottom: 40px;
+}
+.bdy-frame .photo .some-head--title h2 {
+  font-weight: 800;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.bdy-frame .photo .some-head--title p {
+  font-size: 15px;
+  color: #cfcfcf;
+}
+.bdy-frame .photo .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.bdy-frame .photo .row .row-bloc {
+  position: relative;
+}
+.bdy-frame .photo .row .row-bloc .photo__row {
+  width: 250px;
+}
+.bdy-frame .photo .row .row-bloc .photo__row img {
+  width: 100%;
+}
+.bdy-frame .photo .row .row-bloc p {
+  text-align: center;
+}
+.bdy-frame .photo .row .row-bloc .new-top {
+  position: absolute;
+  top: 0;
+  padding: 8px;
+  font-weight: bolder;
+}
+.bdy-frame .photo .row .row-bloc .add-top {
+  position: absolute;
+  top: 75%;
+  background-color: rgb(55, 134, 160);
+  padding: 15px 8px 15px;
+}
+.bdy-frame .photo .row .row-bloc .gray {
+  font-size: 12px;
+  color: #cfcfcf;
+}
+
+footer {
+  background-color: #3e3b3b;
+  height: 50px;
+}
+footer .my-ft {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+footer .my-ft .my-ft__nav {
+  width: 40%;
+}
+footer .my-ft .my-ft__nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+footer .my-ft .my-ft__nav ul li {
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .my-ft .my-ft__nav ul li a {
+  width: 100%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+footer .my-ft .mad {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=day5assi.css.map */

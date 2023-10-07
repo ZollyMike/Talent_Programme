@@ -1,0 +1,104 @@
+.main-body {
+  margin: 12px;
+  background-color: rgb(237, 235, 228);
+  padding: 20px;
+}
+.main-body .main-head {
+  width: 100%;
+  line-height: 60px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.main-body .main-head p {
+  font-size: 20px;
+  font-family: Segoe UI Semibold;
+  font-weight: 300;
+}
+
+.bloc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bloc .bloc__card {
+  padding: 5px;
+}
+.bloc .bloc__card .bloc__img {
+  width: 260px;
+  height: 220px;
+  padding: 10px;
+}
+.bloc .bloc__card .bloc__img a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.bloc .bloc__card .bloc__img a img {
+  width: 100%;
+  height: 100%;
+}
+.bloc .bloc__card p {
+  text-align: center;
+}
+
+.view {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view .view-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 40px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.view .view-btn a {
+  font-family: Segoe UI Semibold;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .bloc .bloc__card .bloc__img {
+    width: 240px;
+    height: 200px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bloc .bloc__card .bloc__img {
+    width: 200px;
+    height: 160px;
+    padding: 10px;
+  }
+  .bloc .bloc__card:last-child {
+    margin-right: 255px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .bloc .bloc__card .bloc__img {
+    width: 135px;
+    height: 100px;
+    padding: 10px;
+  }
+  .bloc .bloc__card:last-child {
+    margin-right: 0px;
+  }
+  .bloc .bloc__card p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .view .view-btn {
+    width: 100px;
+    height: 30px;
+  }
+  .view .view-btn a {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=ass2.css.map */
