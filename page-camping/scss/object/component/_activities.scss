@@ -1,0 +1,106 @@
+.c-wrap-activities{
+    width: 1518px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    .c-wrap-head{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        &__inner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 408px;
+            h4{
+                font-size: 40px;
+                margin: 0 auto;
+                text-align: center;
+                line-height: 1.3;
+            }
+        }
+        
+    }
+    .c-card-activities{
+        width: 1518px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .card-warp{
+            width: 277px;
+            background-color: #FFFFFF;
+            padding: 40px;
+            border-radius: 30px;
+            margin-bottom: 30px;
+            &__inner{
+                .card-img{
+                    position: relative;
+                    margin-bottom: 30px;
+                    display: flex;
+                    justify-content: center;
+                }
+                .card-txt{
+                    text-align: center;
+                    h5{
+                        color: #3B3735;
+                        font-size: 18px;
+                        font-weight: 900;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 16px;
+                        line-height: 1.3;
+                        font-weight: 400;
+                        margin-bottom: 15px;
+                    }
+                    .c-btn--readmore{
+                        width: 185px;
+                        margin: 0 auto;
+                        a{
+                            text-decoration: none;
+                            height: 100%;
+                            color: #8D8D8D;
+                            width: 100%;
+                            border: 1px solid #8D8D8D;
+                        }
+                    }
+                }
+                .favorite{
+                    background-color: #FFFFFF;
+                    padding: 5px;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 100%;
+                    display: flex;
+                    justify-content: center;
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                }
+
+            }
+            .price{
+                margin: 0 auto;
+                width: 145px;
+                border-radius: 10px;
+                background-color: #FFFFFF;
+                position: absolute;
+                margin-top: 150px;
+                &__txt{
+                    text-align: center;
+                    padding: 12px;
+                    color: #E76F51;
+                }
+            }
+        }
+    }
+    .c-btn--view{
+        max-width: 205px;
+        margin: 0 auto;
+        a{
+            border: 1px solid #E76F51;
+            color: #E76F51;
+            padding: 15px;
+        }
+    }
+}
